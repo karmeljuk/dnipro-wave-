@@ -1,0 +1,155 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+.container {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container .columns {
+  float: left;
+  display: inline;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+}
+
+.half {
+  width: 50%;
+  float: left;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+/* #Page Styles
+================================================== */
+header {
+  background: #fff url("../images/header-bg.jpg") 0 0 no-repeat;
+  height: 337px;
+  overflow: hidden;
+}
+
+header h1 {
+  text-indent: -9999px;
+  font-size: 0px;
+  background: url("../images/title.png") 0 0 no-repeat;
+  width: 295px;
+  text-align: right;
+}
+
+header h1 a {
+  display: block;
+}
+
+.main .top, .main .bottom {
+  background: #FFEF07;
+  text-align: center;
+  height: 36px;
+}
+
+.main .middle{
+  padding: 15px 18px 15px 0;
+  overflow: hidden;
+}
+
+.main .plan .blue {
+  width: 122px;
+  height: 71px;
+  background: #DCF0FF;
+  text-align: center;
+  float: left;
+  margin-left: 18px;
+}
+
+.main .plan .blue p {
+  margin-top: 18px;
+}
+
+.main .desc p{
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.main .bottom {
+  border-bottom: 1px solid #4D7227;
+}
+
+footer {
+  background: #fff url("../images/cloud.png") 0 0 no-repeat;
+}
+
+footer .top {
+  height: 94px;
+  border-top: 4px solid  #92C42E;
+}
+
+footer .top p {
+  padding: 0 63px;
+  text-align: center;
+  letter-spacing: -0.6px;
+  margin: 12px 0 0 0;
+  line-height: 17px;
+}
+
+footer .bottom {
+  font-size: 0;
+  padding: 0 12px 20px;
+}
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+==================================================*/
+
+
