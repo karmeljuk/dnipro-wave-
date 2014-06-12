@@ -80,11 +80,21 @@ header h1 a {
 }
 
 .main .middle{
-  padding: 15px 18px 15px 0;
+  padding: 15px 16px;
   overflow: hidden;
 }
 
-.main .plan .blue {
+.main .middle .scheme {
+  float: left;
+  margin-left: 4px;
+  width: 150px;
+}
+
+.main .middle .scheme.first {
+  margin-left: 0;
+}
+
+/*.main .plan .blue {
   width: 122px;
   height: 71px;
   background: #DCF0FF;
@@ -95,13 +105,13 @@ header h1 a {
 
 .main .plan .blue p {
   margin-top: 18px;
-}
+}*/
 
-.main .desc p{
-  font-size: 18px;
-  line-height: 22px;
+.main p.description{
+  font-size: 14px;
+  line-height: 1em;
   margin: 0;
-  letter-spacing: -0.5px;
+  text-align: center;
 }
 
 .main .bottom {
